@@ -1,0 +1,99 @@
+﻿﻿body {
+}
+#wrapper{
+    max-width:960px;
+    margin:0 auto
+}
+#main {
+    background-color: #3b3838;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align:  center;
+    padding-top:15px;
+}
+
+
+
+#header {
+    width: 100%;
+    height: 200px;
+}
+
+#content {
+    width: 70%;
+    height: 700px;
+    float: left;
+}
+
+#side {
+    width: 30%;
+    height: 700px;
+    float: right;
+    text-align:top;
+}
+
+#footer {
+    background-color: rgb(212, 211, 201);
+    width: 100%;
+    height: 120px;
+    clear: both;
+}
+
+h1 {
+    font-size: 36px;
+    text-align:center;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 13px;
+}
+img{
+    border:none;
+    vertical-align:top;
+}
+#prod-name{
+    font-family:'Times New Roman';
+    font-weight:bold;
+}
+#newPrice{
+    color:cornflowerblue;
+    font-weight:bold;
+    font-size:medium;
+    display:inline
+}
+#oldPrice{
+    color:grey;
+    display:inline;
+    font-size:small;
+    text-decoration:line-through;
+}
+#discount {
+    color: grey;
+    display: inline;
+    font-size: small;
+
+}
+article{
+    background-color:whitesmoke;
+}
+#prod-table{
+    background-color:white;
+    border-spacing:10px;
+    float:left;
+    padding:30px;
+}
+prod-id{
+    width:25%;
+    height:200px;
+    border:groove;
+
+}
